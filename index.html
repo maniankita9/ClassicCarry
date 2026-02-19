@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClassicCarry</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="images/logo.jpg" height="60" class="me-2">
+      <span class="fw-bold text-warning">ClassicCarry</span>
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav mx-auto fw-semibold">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+
+        <!-- ===== PRODUCTS DROPDOWN ===== -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#products" role="button" data-bs-toggle="dropdown">
+            Products
+          </a>
+
+          <ul class="dropdown-menu shadow border-0 p-3">
+            <li><a class="dropdown-item" href="#products">Handbags</a></li>
+            <li><a class="dropdown-item" href="#products">Sling Bags</a></li>
+            <li><a class="dropdown-item" href="#products">Laptop Bags</a></li>
+            <li><a class="dropdown-item" href="#products">Office Bags</a></li>
+            <li><a class="dropdown-item" href="#products">Jackets</a></li>
+            <li><a class="dropdown-item" href="#products">Wallets</a></li>
+            <li><a class="dropdown-item" href="#products">Belts</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+      <!-- Button -->
+      <a href="#contact" class="btn btn-primary">Get In Touch</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+
+  <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/background1.jpg" class="d-block w-100 hero-img">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/background2.jpg" class="d-block w-100 hero-img">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/background3.jpg" class="d-block w-100 hero-img">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+
+  <div class="hero-content container text-center text-white">
+    <h5>PREMIUM LEATHER BAG EXPORTER FROM INDIA</h5>
+    <h1 class="fw-bold">Inspired by Tradition, Designed for Today.</h1>
+    <p>ClassicCarry is a trusted manufacturer and B2B exporter of premium leather products.</p>
+    <a href="#contact" class="btn btn-primary btn-lg">Contact Us</a>
+  </div>
+
+</section>
+
+
+<!-- ================= OUR PRODUCTS ================= -->
+<section id="products" class="py-5 bg-light">
+  <div class="container text-center">
+
+    <h2 class="fw-bold mb-4">Our Products</h2>
+
+    <!-- Leather Handbags -->
+    <h4 class="mb-3 text-start">Leather Handbags</h4>
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6"><img src="images/purse1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/purse2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/purse3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/purse4.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+
+    <!-- Leather Jackets -->
+    <h4 class="mb-3 text-start">Leather Jackets</h4>
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6"><img src="images/jacket1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/jacket2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/jacket3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/jacket4.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+
+    <!-- Leather Belts -->
+    <h4 class="mb-3 text-start">Leather Belts</h4>
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6"><img src="images/belt1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/belt2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/belt3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/belt4.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+
+    <!-- Wallets -->
+    <h4 class="mb-3 text-start">Leather Wallets</h4>
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6"><img src="images/wallet1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/wallet2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/wallet3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/wallet4.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+
+    <!-- Laptop Bags -->
+    <h4 class="mb-3 text-start">Laptop Bags</h4>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6"><img src="images/laptop bag 1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/laptop bag 2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/laptop bag 3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-lg-3 col-md-6"><img src="images/laptop bag 4.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section">
+  <div class="container">
+
+    <div class="contact-wrapper">
+
+      <div class="contact-form">
+        <h2>Get In Touch</h2>
+
+        <form>
+          <div class="form-grid">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+
+            <input type="tel" placeholder="Your Mobile">
+            <input type="text" placeholder="Your Address">
+
+            <textarea placeholder="Message"></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+
+      <div class="map-box">
+        <iframe
+          src="https://maps.google.com/maps?q=Mumbai&t=&z=11&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+<footer class="footer">
+  <div class="footer-container">
+    
+  
+    <div class="footer-box">
+      <h2>ClassicCarry</h2>
+      <p>
+        Indian Manufacturer & Global Exporter of Premium Leather Bags and Accessories 
+        including handbags, office bags, jackets, wallets, and belts for international B2B markets.
+      </p>
+      <p>📍 Mumbai, Maharashtra, India</p>
+      <p>📞 +91 8591571003</p>
+      <p>✉️ info@ClassicCarry.com</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Our Products</h3>
+      <ul>
+        <li>Leather Handbags</li>
+        <li>Sling Bags</li>
+        <li>Laptop Bags</li>
+        <li>Office Bags</li>
+        <li>Leather Jackets</li>
+        <li>Wallets</li>
+        <li>Leather Belts</li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 ClassicCarry. All Rights Reserved.
+  </div>
+</footer>
+
